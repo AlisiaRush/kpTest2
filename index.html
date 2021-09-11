@@ -11,22 +11,22 @@
 <body>
     <div class="wrapper">
         <div class="tabs">
-            <ul class="tabs-bar">
-                <li class="tabs-button" data-for-tab="1">Tab Label 1</li>
-                <li class="tabs-button" data-for-tab="2">Tab Label 2</li>
-                <li class="tabs-button" data-for-tab="3">Tab Label 3</li>
-                <li class="tabs-button" data-for-tab="4">Tab Label 4</li>
-                <li class="tabs-button" data-for-tab="5">Tab Label 5</li>
-                <li class="tabs-button" data-for-tab="6">Tab Label 6</li>
-                <li class="tabs-button" data-for-tab="7">Tab Label 7</li>
+            <ul class="tabs-bar" role="tablist" aria-label="Tabs">
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabindex="0" class="tabs-button" data-for-tab="1">Tab Label 1</li>
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-2" tabindex="1" class="tabs-button" data-for-tab="2">Tab Label 2</li>
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-3" tabindex="2" class="tabs-button" data-for-tab="3">Tab Label 3</li>
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-4" tabindex="3" class="tabs-button" data-for-tab="4">Tab Label 4</li>
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-5" tabindex="4" class="tabs-button" data-for-tab="5">Tab Label 5</li>
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-6" tabindex="5" class="tabs-button" data-for-tab="6">Tab Label 6</li>
+                <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab-7" tabindex="6" class="tabs-button" data-for-tab="7">Tab Label 7</li>
             </ul>
             <!--end tabs-bar-->
 
-            <div class="tabs-content" data-tab="1">
+            <div class="tabs-content" data-tab="1" id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 1</h2>
-                        <p>Social currency we need to aspirationalise our offerings yet tiger team, knowledge is power
+                        <h2 role="heading" >Tab Label 1</h2>
+                        <p role="contentinfo">Social currency we need to aspirationalise our offerings yet tiger team, knowledge is power
                             and we need to start advertising on social media i am dead inside and you better eat a
                             reality sandwich before you walk back in that boardroom. On this journey three-martini lunch
                             thinking outside the box, nor i called the it department about that ransomware because of
@@ -45,11 +45,11 @@
             </div>
             <!--end tabs content-->
 
-            <div class="tabs-content" data-tab="2">
+            <div class="tabs-content" data-tab="2" id="panel-2" role="tabpanel" tabindex="1" aria-labelledby="tab-2">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 2</h2>
-                        <p>I called the it department about that ransomware because of the old antivirus, but he said
+                        <h2 role="heading">Tab Label 2</h2>
+                        <p role="contentinfo">I called the it department about that ransomware because of the old antivirus, but he said
                             that we were using avast 2021 a set of certitudes based on deductions founded on false
                             premise for face time products need full resourcing and support from a cross-functional team
                             in order to be built, maintained, and evolved we need to follow protocol and corporate
@@ -67,11 +67,11 @@
             </div>
             <!--end tabs content-->
 
-            <div class="tabs-content" data-tab="3">
+            <div class="tabs-content" data-tab="3" id="panel-3" role="tabpanel" tabindex="2" aria-labelledby="tab-3">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 3</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dolor est, molestie ut dui at,
+                        <h2 role="heading">Tab Label 3</h2>
+                        <p role="contentinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dolor est, molestie ut dui at,
                             suscipit molestie turpis. Sed in massa eu libero placerat auctor sit amet vel dui. Cras
                             viverra pulvinar auctor. Nullam in augue eu velit blandit gravida. Orci varius natoque
                             penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam efficitur libero
@@ -93,11 +93,11 @@
             </div>
             <!--end tabs content-->
 
-            <div class="tabs-content" data-tab="4">
+            <div class="tabs-content" data-tab="4" id="panel-4" role="tabpanel" tabindex="3" aria-labelledby="tab-4">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 4</h2>
-                        <p>Put your feelers out today shall be a cloudy day, thanks to blue sky thinking, we can now
+                        <h2 role="heading">Tab Label 4</h2>
+                        <p role="contentinfo">Put your feelers out today shall be a cloudy day, thanks to blue sky thinking, we can now
                             deploy our new ui to the cloud or copy and paste from stack overflow nor synergize
                             productive mindfulness. Make it look like digital circle back around but reinvent the wheel
                             can we take this offline creativity requires you to murder your children. Pro-sumer software
@@ -118,11 +118,11 @@
             </div>
             <!--end tabs content-->
 
-            <div class="tabs-content" data-tab="5">
+            <div class="tabs-content" data-tab="5" id="panel-5" role="tabpanel" tabindex="4" aria-labelledby="tab-5">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 5</h2>
-                        <p>view due diligence fire up your browser define the underlying principles that drive decisions
+                        <h2 role="heading">Tab Label 5</h2>
+                        <p role="contentinfo">view due diligence fire up your browser define the underlying principles that drive decisions
                             and strategy for your design language. Everyone thinks the soup tastes better after
                             theyâ€™ve pissed in it window-licker. Please submit the sop and uat files by next monday can
                             I just chime in on that one, and the closest elephant is the most dangerous or cta. Blue
@@ -142,11 +142,11 @@
             </div>
             <!--end tabs content-->
 
-            <div class="tabs-content" data-tab="6">
+            <div class="tabs-content" data-tab="6" id="panel-6" role="tabpanel" tabindex="5" aria-labelledby="tab-6">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 6</h2>
-                        <p>Low-hanging fruit hit the ground running, nor I have zero cycles for this, and wheelhouse
+                        <h2 role="heading">Tab Label 6</h2>
+                        <p role="contentinfo">Low-hanging fruit hit the ground running, nor I have zero cycles for this, and wheelhouse
                             problem territories data-point. Make it a priority. Build on a culture of contribution and
                             inclusion this is our north star design yet wiggle room pig in a python, for pushback. Can
                             we parallel path service as core &innovations as power makes our brand so can we jump on a
@@ -164,11 +164,11 @@
             </div>
             <!--end tabs content-->
 
-            <div class="tabs-content" data-tab="7">
+            <div class="tabs-content" data-tab="7" id="panel-7" role="tabpanel" tabindex="6" aria-labelledby="tab-7">
                 <div class="flex-container">
                     <div class="tabs-text">
-                        <h2>Tab Label 7</h2>
-                        <p>Social currency we need to aspirationalise our offerings yet tiger team, knowledge is power
+                        <h2 role="heading">Tab Label 7</h2>
+                        <p role="contentinfo">Social currency we need to aspirationalise our offerings yet tiger team, knowledge is power
                             and we need to start advertising on social media i am dead inside and you better eat a
                             reality sandwich before you walk back in that boardroom. On this journey three-martini lunch
                             thinking outside the box, nor i called the it department about that ransomware because of
